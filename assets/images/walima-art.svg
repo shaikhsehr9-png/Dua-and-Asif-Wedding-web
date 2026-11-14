@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECC880"/>
+      <stop offset="50%" stop-color="#B38A50"/>
+      <stop offset="100%" stop-color="#6F491A"/>
+    </linearGradient>
+  </defs>
+  <!-- Grand Crystal Chandelier Motif -->
+  <g stroke="url(#wGold)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ceiling chain -->
+    <line x1="80" y1="12" x2="80" y2="40" stroke-width="2"/>
+    <circle cx="80" cy="24" r="2.5" fill="#B38A50"/>
+
+    <!-- Top Crown -->
+    <path d="M 65,40 C 72,36 88,36 95,40 L 90,48 L 70,48 Z" fill="#6F2638" stroke-width="1.2"/>
+
+    <!-- Main Chandelier Arms -->
+    <path d="M 80,48 C 65,65 35,68 35,85" stroke-width="2"/>
+    <path d="M 80,48 C 95,65 125,68 125,85" stroke-width="2"/>
+    <path d="M 80,48 C 72,70 55,75 55,90" stroke-width="1.5"/>
+    <path d="M 80,48 C 88,70 105,75 105,90" stroke-width="1.5"/>
+    <line x1="80" y1="48" x2="80" y2="100" stroke-width="1.8"/>
+
+    <!-- Candle Flames & Light Glows -->
+    <g fill="#ECC880" stroke="none">
+      <ellipse cx="35" cy="80" rx="3" ry="5"/>
+      <ellipse cx="125" cy="80" rx="3" ry="5"/>
+      <ellipse cx="55" cy="85" rx="2.5" ry="4.5"/>
+      <ellipse cx="105" cy="85" rx="2.5" ry="4.5"/>
+      <ellipse cx="80" cy="95" rx="3.5" ry="6"/>
+    </g>
+
+    <!-- Hanging Crystal Teardrops -->
+    <path d="M 35,92 L 35,104" stroke-width="1"/>
+    <polygon points="35,108 33,104 37,104" fill="#ECC880"/>
+    <path d="M 125,92 L 125,104" stroke-width="1"/>
+    <polygon points="125,108 123,104 127,104" fill="#ECC880"/>
+    <path d="M 80,108 L 80,122" stroke-width="1.2"/>
+    <polygon points="80,128 77,122 83,122" fill="#B38A50"/>
+
+    <!-- Sparkle Stars -->
+    <path d="M 80,136 L 81,142 L 87,143 L 81,144 L 80,150 L 79,144 L 73,143 L 79,142 Z" fill="#FFEAA7" stroke="none"/>
+    <path d="M 28,68 L 29,72 L 33,73 L 29,74 L 28,78 L 27,74 L 23,73 L 27,72 Z" fill="#FFEAA7" stroke="none"/>
+    <path d="M 132,68 L 133,72 L 137,73 L 133,74 L 132,78 L 131,74 L 127,73 L 131,72 Z" fill="#FFEAA7" stroke="none"/>
+  </g>
+</svg>
